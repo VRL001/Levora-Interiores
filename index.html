@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Levora Interiores</title>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+<!-- ===== TOPO / MENU ===== -->
+<header class="dk"><div class="wrap nav">
+  <a href="#inicio" aria-label="Levora Interiores"><img src="assets/logo.png" alt="Levora Interiores"></a>
+  <button class="burger" id="bg" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="links" id="lk">
+    <a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#valores">Valores</a><a href="#como">Como funciona</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+    <a class="btn fill sm" href="#orcamento">Solicitar orçamento</a>
+  </nav>
+</div></header>
+
+<main>
+
+<!-- ===== SEÇÃO: HERO ===== -->
+<section class="hero" id="inicio"><div class="wrap">
+  <div>
+    <h1 class="in">Seu espaço, pensado nos <span class="g">mínimos detalhes.</span></h1>
+    <p class="in d1">A Levora Interiores desenvolve projetos personalizados para o seu jeito de viver.</p>
+    <div class="btns in d2"><a class="btn fill" href="#projetos">Ver projetos</a><a class="btn" href="#orcamento">Solicitar orçamento</a></div>
+    <div class="tags in d2"><span>Projetos personalizados</span><span>Atendimento profissional</span><span>Orçamento sem compromisso</span></div>
+  </div>
+  <div class="ph hero-img in d1" id="heroImg"><span>Foto do projeto em destaque</span></div>
+</div></section>
+
+
+<!-- ===== SEÇÃO: PROJETOS REALIZADOS ===== -->
+<section id="projetos"><div class="wrap">
+  <div class="head"><h2>Projetos realizados</h2><p class="sub">Toque em um projeto para ver a galeria completa.</p></div>
+  <div class="grid pj" id="pj"></div>
+</div></section>
+
+
+<!-- ===== SEÇÃO: QUANTO CUSTA ===== -->
+<section class="alt" id="valores"><div class="wrap">
+  <div class="head"><h2>Quanto custa?</h2><p class="sub">Um projeto de interiores custa quanto? Aqui estão valores de referência, sem esconder nada.</p></div>
+  <div class="grid ft" id="vl"></div>
+  <p class="note">Os valores apresentados são estimativas e podem variar de acordo com as características, necessidades e complexidade de cada projeto.</p>
+</div></section>
+
+
+<!-- ===== SEÇÃO: O QUE ESTÁ INCLUSO ===== -->
+<section id="incluso"><div class="wrap">
+  <div class="head"><h2>O que está incluso?</h2><p class="sub">Tudo o que você recebe ao contratar o projeto.</p></div>
+  <div class="grid inc" id="inc"></div>
+</div></section>
+
+
+
+
+<!-- ===== SEÇÃO: COMO FUNCIONA ===== -->
+<section class="alt" id="como"><div class="wrap">
+  <div class="head"><h2>Como funciona?</h2></div>
+  <div class="grid steps" id="st"></div>
+</div></section>
+
+
+<!-- ===== SEÇÃO: APARTAMENTOS NOVOS ===== -->
+<section id="novos"><div class="wrap">
+  <div class="head"><h2>Comprou um apartamento novo?</h2><p class="sub">Veja exemplos de projetos e tenha uma ideia de investimento para transformar seu novo espaço.</p></div>
+  <div class="grid ft" id="nv"></div>
+  <p class="note">Valores de exemplo. Solicite um orçamento para o seu apartamento.</p>
+</div></section>
+
+
+<!-- ===== SEÇÃO: FAQ ===== -->
+<section class="alt" id="faq"><div class="wrap faq-wrap"><div class="faq-head"><h2>Perguntas frequentes</h2><hr></div><div id="fq"></div></div></section>
+
+
+<!-- ===== SEÇÃO: SOBRE ===== -->
+<section class="about" id="sobre"><div class="wrap">
+  <div class="ph" id="sobreImg"><span>Foto profissional</span></div>
+  <div><h2 id="sbT"></h2><p class="sub" id="sbX"></p><div class="dif" id="sbD"></div></div>
+</div></section>
+
+
+<!-- ===== SEÇÃO: AVALIAÇÕES ===== -->
+<section class="alt" id="avaliacoes"><div class="wrap">
+  <div class="head"><h2>O que nossos clientes dizem</h2></div>
+  <div class="car"><button class="arw" id="rvPrev" aria-label="Anterior">‹</button><div class="track" id="rv"></div><button class="arw" id="rvNext" aria-label="Próxima">›</button></div>
+  <p class="rv-note" id="rvNote"></p>
+  <div class="btns" style="margin-top:26px;justify-content:center"><a class="btn" id="gl" target="_blank" rel="noopener">Avalie a Levora no Google ⭐</a></div>
+</div></section>
+
+
+<!-- ===== SEÇÃO: ORÇAMENTO (FORMULÁRIO) ===== -->
+<section class="cta dk" id="orcamento"><div class="wrap">
+  <div>
+    <h2>Seu projeto começa com um <span class="g">orçamento.</span></h2>
+    <p class="sub">Preencha o formulário e a Levora entrará em contato pelo WhatsApp para entender o que você precisa.</p>
+    <ul class="checks"><li>Projeto personalizado</li><li>Orçamento sem compromisso</li><li>Resposta pelo WhatsApp</li></ul>
+    <div class="ci l" id="ci2"></div>
+  </div>
+  <form id="f" class="fcard">
+    <div class="fh"><i>✉</i><div><b>Solicite seu orçamento</b><small>Resposta pelo WhatsApp</small></div></div>
+    <label>Nome completo<input name="n" required autocomplete="name" placeholder="Seu nome"></label>
+    <div class="two"><label>WhatsApp<input name="w" type="tel" required autocomplete="tel" placeholder="(00) 00000-0000"></label><label>Cidade<input name="c" autocomplete="address-level2" placeholder="Sua cidade"></label></div>
+    <div class="two"><label>Tipo de projeto<select name="t"><option>Apartamento</option><option>Casa</option><option>Outro</option></select></label><label>Metragem aproximada<input name="m" placeholder="ex.: 60 m²"></label></div>
+    <label>Mensagem<textarea name="g" rows="3"></textarea></label>
+    <button class="btn fill" type="submit">Quero receber meu orçamento</button>
+  </form>
+</div></section>
+
+
+<!-- ===== SEÇÃO: CONTATO FINAL ===== -->
+<section class="contact" id="contato"><div class="wrap">
+  <h2>Tem um projeto em mente?</h2>
+  <p class="sub" style="margin-inline:auto">Fale com a Levora Interiores e solicite seu orçamento.</p>
+  <div class="btns"><a class="btn fill" id="waC" target="_blank" rel="noopener">Falar pelo WhatsApp</a></div>
+</div></section>
+</main>
+
+<!-- ===== RODAPÉ ===== -->
+<footer class="dk"><div class="wrap">
+  <div class="fg">
+    <div><img src="assets/logo.png" alt="Levora Interiores"><p class="mut" style="max-width:320px;margin:0">Projetos de interiores personalizados.</p></div>
+    <div><a href="#projetos">Projetos</a><a href="#valores">Valores</a><a href="#como">Como funciona</a><a href="#faq">Dúvidas</a></div>
+    <div id="fs"></div>
+  </div>
+  <div class="copy">© <span id="yr"></span> Levora Interiores. Todos os direitos reservados.</div>
+</div></footer>
+
+<!-- ===== BOTÃO FLUTUANTE WHATSAPP ===== -->
+<a class="wa" id="waF" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+
+<!-- ===== MODAL DE PROJETO ===== -->
+<dialog id="dl"><button class="x" aria-label="Fechar" onclick="this.closest('dialog').close()">×</button><div id="dlB"></div></dialog>
+
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
